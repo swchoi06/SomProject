@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  NumberButton.h
 //  SomProject
 //
 //  Created by SukWon Choi on 13. 8. 5..
@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface NumberButton : UIButton
 
 @end

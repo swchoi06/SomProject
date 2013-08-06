@@ -18,6 +18,8 @@
 		F5CBCB6217AFAB08009B37E6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5CBCB6117AFAB08009B37E6 /* Default-568h@2x.png */; };
 		F5CBCB6517AFAB08009B37E6 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5CBCB6317AFAB08009B37E6 /* MainStoryboard.storyboard */; };
 		F5CBCB6817AFAB08009B37E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CBCB6717AFAB08009B37E6 /* ViewController.m */; };
+		F5FCECC317AFE63000529166 /* NumberButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FCECC217AFE62F00529166 /* NumberButton.m */; };
+		F5FCECC617AFE9D800529166 /* NumberButtonPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FCECC517AFE9D800529166 /* NumberButtonPanel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,10 @@
 		F5CBCB6417AFAB08009B37E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		F5CBCB6617AFAB08009B37E6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		F5CBCB6717AFAB08009B37E6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F5FCECC117AFE62F00529166 /* NumberButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberButton.h; sourceTree = "<group>"; };
+		F5FCECC217AFE62F00529166 /* NumberButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberButton.m; sourceTree = "<group>"; };
+		F5FCECC417AFE9D800529166 /* NumberButtonPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberButtonPanel.h; sourceTree = "<group>"; };
+		F5FCECC517AFE9D800529166 /* NumberButtonPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberButtonPanel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +94,10 @@
 				F5CBCB6317AFAB08009B37E6 /* MainStoryboard.storyboard */,
 				F5CBCB6617AFAB08009B37E6 /* ViewController.h */,
 				F5CBCB6717AFAB08009B37E6 /* ViewController.m */,
+				F5FCECC117AFE62F00529166 /* NumberButton.h */,
+				F5FCECC217AFE62F00529166 /* NumberButton.m */,
+				F5FCECC417AFE9D800529166 /* NumberButtonPanel.h */,
+				F5FCECC517AFE9D800529166 /* NumberButtonPanel.m */,
 				F5CBCB5217AFAB08009B37E6 /* Supporting Files */,
 			);
 			path = SomProject;
@@ -176,6 +186,8 @@
 				F5CBCB5817AFAB08009B37E6 /* main.m in Sources */,
 				F5CBCB5C17AFAB08009B37E6 /* AppDelegate.m in Sources */,
 				F5CBCB6817AFAB08009B37E6 /* ViewController.m in Sources */,
+				F5FCECC317AFE63000529166 /* NumberButton.m in Sources */,
+				F5FCECC617AFE9D800529166 /* NumberButtonPanel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +310,7 @@
 				F5CBCB6D17AFAB08009B37E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

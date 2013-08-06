@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  NumberButtonPanel.h
 //  SomProject
 //
 //  Created by SukWon Choi on 13. 8. 5..
@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NumberButton.h"
 
-@interface ViewController : UIViewController
+@interface NumberButtonPanel : UIView
 
 
+- (id)initWithOrigin:(int)x y:(int)y;
+- (void)buttonGenerator;
 @end

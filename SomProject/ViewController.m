@@ -7,23 +7,33 @@
 //
 
 #import "ViewController.h"
+#import "NumberButtonPanel.h"
 
-@interface ViewController ()
+@interface ViewController (){
+    NumberButtonPanel * topNumberButtonPanel;
+    NumberButtonPanel * bottomNumberButtonPanel;
+}
+
+- (void)buttonClicked:(id)sender;
 
 @end
 
 @implementation ViewController
 
+//@synthesize buttons;
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    topNumberButtonPanel = [[NumberButtonPanel alloc] initWithOrigin:1 y:80];
+    bottomNumberButtonPanel = [[NumberButtonPanel alloc] initWithOrigin:1 y:self.view.frame.size.height-159];
+    
+    [self.view addSubview:topNumberButtonPanel];
+    [self.view addSubview:bottomNumberButtonPanel];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)buttonClicked:(id)sender{
+    NSLog(@"buttonClicked");
 }
 
 @end
