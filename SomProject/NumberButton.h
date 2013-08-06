@@ -10,4 +10,13 @@
 
 @interface NumberButton : UIButton
 
+@property (nonatomic) int number;
+@property (nonatomic) int color;
+
+-(id)initWithRandomNumberAndColor;
+-(BOOL)isClicked;
+-(void)changeState;
+-(void)randNumber;
+-(void)randColor;
+
 @end

@@ -23,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F545CB9417B099D900F6D54F /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		F5CBCB4817AFAB08009B37E6 /* SomProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SomProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5CBCB4B17AFAB08009B37E6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F5CBCB4D17AFAB08009B37E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -89,6 +90,7 @@
 		F5CBCB5117AFAB08009B37E6 /* SomProject */ = {
 			isa = PBXGroup;
 			children = (
+				F545CB9417B099D900F6D54F /* Constants.h */,
 				F5CBCB5A17AFAB08009B37E6 /* AppDelegate.h */,
 				F5CBCB5B17AFAB08009B37E6 /* AppDelegate.m */,
 				F5CBCB6317AFAB08009B37E6 /* MainStoryboard.storyboard */,
